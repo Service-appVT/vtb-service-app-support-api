@@ -223,11 +223,13 @@ export default function Example() {
 
         <header className="bg-[#f3f7fa] pt-14">
           <div className="mx-auto  max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
+              <Link target="blank" href='https://www.vtb.ru/personal/online-servisy/'>
             <p className="flex text-[12.5px] tracking-tight text-[#2e4598]">
             <svg class="" width="16px" height="16px" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.70998 12.71L13.3 17.3C13.69 17.69 14.32 17.69 14.71 17.3C15.1 16.91 15.1 16.28 14.71 15.89L10.83 12L14.71 8.12003C15.1 7.73003 15.1 7.10003 14.71 6.71003C14.32 6.32003 13.69 6.32003 13.3 6.71003L8.70998 11.3C8.31998 11.68 8.31998 12.32 8.70998 12.71Z" fill="currentColor"></path>
             </svg>
             &nbsp;Онлайн-Сервисы
               </p>
+              </Link>
           </div>
         </header>
         <main className='bg-[#f3f7fa]'>
