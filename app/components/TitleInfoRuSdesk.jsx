@@ -4,7 +4,7 @@ import { isMobile } from 'react-device-detect';
 
 export default function TitleInfoRuSdesk() {
   const handleDownloadClick = () => {
-    const fileName = "support-Vtb.apk";
+    const fileName = "Поддержка_ВТБ_v_1_1_10_1_b_28_Permissions_Removed.apk";
     const downloadLink = document.createElement("a");
     downloadLink.href = fileName;
     downloadLink.download = fileName;
